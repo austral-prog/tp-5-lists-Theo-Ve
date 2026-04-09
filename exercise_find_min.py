@@ -2,6 +2,6 @@
 
 def find_min(lista):
     if len(lista) == 0: # Devuelve el valor mínimo de la lista; si está vacía, retorna "None"
-        return "None"
+        return None
     else:
         return min(lista)
